@@ -70,10 +70,19 @@ body {
   .box {
     margin-inline: auto;
     display: flex;
+    flex-direction: row;
+    align-items: center;
     height: 530px;
     width: 1110px;
     padding: 0px;
-    justify-content: space-between;
+    gap: 0px;
+  }
+}
+
+@media screen and (width>768px) {
+  .desktop {
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -93,20 +102,12 @@ body {
   border-top: 5px solid #44d3d2;
 }
 
-@media screen and (width>768px) {
-  .card-aq {
-    order: 0;
-    align-self: center;
-  }
-}
-
 .card-rd {
   border-top: 5px solid #ea5454;
 }
 
 @media screen and (width>768px) {
   .card-rd {
-    order: 1;
     align-self: flex-start;
   }
 }
@@ -117,8 +118,8 @@ body {
 
 @media screen and (width>768px) {
   .card-or {
-    order: 2;
     align-self: flex-end;
+    justify-self: center;
   }
 }
 
@@ -128,8 +129,6 @@ body {
 
 @media screen and (width>768px) {
   .card-bl {
-    order: 3;
-    justify-self: flex-end;
     align-self: center;
   }
 }

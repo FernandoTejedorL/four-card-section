@@ -27,3 +27,133 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
+
+.prompt {
+  height: 161px;
+  width: 311px;
+  margin-left: 32px;
+  margin-top: 85px;
+  margin-bottom: 76px;
+}
+
+@media screen and (width>768px) {
+  .prompt {
+    display: block;
+    margin-inline: auto;
+    margin-top: 80px;
+    margin-bottom: 64px;
+  }
+}
+
+.prompt-thin {
+  font-size: 24px;
+  font-weight: 200;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.prompt-bold {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.prompt-txt {
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 50%;
+  text-align: center;
+}
+
+@media screen and (width>768px) {
+  .box {
+    margin-inline: auto;
+    display: flex;
+    height: 530px;
+    width: 1110px;
+    padding: 0px;
+    justify-content: space-between;
+  }
+}
+
+.card {
+  position: relative;
+  height: 222px;
+  width: 311px;
+  background-color: white;
+  border-radius: 5px;
+  padding-left: 28px;
+  margin-left: 32px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-aq {
+  border-top: 5px solid #44d3d2;
+}
+
+@media screen and (width>768px) {
+  .card-aq {
+    order: 0;
+    align-self: center;
+  }
+}
+
+.card-rd {
+  border-top: 5px solid #ea5454;
+}
+
+@media screen and (width>768px) {
+  .card-rd {
+    order: 1;
+    align-self: flex-start;
+  }
+}
+
+.card-or {
+  border-top: 5px solid #fcae4a;
+}
+
+@media screen and (width>768px) {
+  .card-or {
+    order: 2;
+    align-self: flex-end;
+  }
+}
+
+.card-bl {
+  border-top: 5px solid #549ef2;
+}
+
+@media screen and (width>768px) {
+  .card-bl {
+    order: 3;
+    justify-self: flex-end;
+    align-self: center;
+  }
+}
+
+.jobrole {
+  font-size: 20px;
+  font-weight: 600;
+  color: #4d4f62;
+  margin-bottom: 0px;
+}
+
+.description {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+  opacity: 50%;
+  margin-top: 1px;
+}
+
+.icons {
+  display: block;
+  position: absolute;
+  height: 57px;
+  width: 57px;
+  bottom: 28px;
+  right: 28px;
+}
